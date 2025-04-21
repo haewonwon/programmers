@@ -1,6 +1,3 @@
-const fs = require("fs");
-let n = Number(fs.readFileSync(0).toString().trim());
-
 function solution(n) {
     let sumVal = 0;
     
