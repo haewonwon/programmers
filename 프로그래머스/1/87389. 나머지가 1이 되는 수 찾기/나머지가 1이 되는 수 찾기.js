@@ -1,11 +1,19 @@
 function solution(n) {
-    const arr = [];
-    
     for (let i = 1; i < n; i++) {
         if (n % i === 1) {
-            arr.push(i);
+            return i;
         }
     }
-    
-    return arr[0];
 }
+
+// function solution(n) {
+//     const arr = [];
+    
+//     for (let i = 1; i < n; i++) {
+//         if (n % i === 1) {
+//             arr.push(i);
+//         }
+//     }
+    
+//     return arr[0];
+// }
