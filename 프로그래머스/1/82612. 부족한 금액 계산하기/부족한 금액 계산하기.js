@@ -5,9 +5,5 @@ function solution(price, money, count) {
         sum += i * price
     }
     
-    if (money > sum) {
-        return 0
-    } else {
-        return sum - money
-    }
+    return money < sum ? sum - money : 0
 }
